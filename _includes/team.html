@@ -1,0 +1,13 @@
+<div class="team-wrapper">
+  {% assign sorted_members = (site.data.team_members | sort: 'name') %}
+  <div class="wrapper">
+    <h2>Nosso time</h2>
+    {% for member in sorted_members %}
+      <div class="team-member-wrapper">
+        <img class="team-member-photo" src="{{ member.picture | prepend: site.base_imgpath_team }}" />
+        <h4 class="team-member-name">{{ member.name }}</h4>
+        <p>{{member.short_description}}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>

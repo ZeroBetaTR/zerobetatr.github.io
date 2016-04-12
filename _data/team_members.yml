@@ -1,0 +1,19 @@
+- name: André Siviero
+  picture: andre_siviero.jpg
+  github: asiviero
+  short_description: Engenheiro de Computação
+
+- name: Rodrigo Cosme
+  picture: rodrigo_cosme.jpg
+  github: rodrigosilvacosme
+  short_description: Mestre em Engenharia Financeira
+
+- name: Agnello Hupp
+  picture: agnello_hupp.jpg
+  github: contihupp
+  short_description: Engenheiro de Produção
+
+- name: Pedro Sá
+  picture: pedro_sa.jpg
+  github: pveronezisa
+  short_description: Mestre em Engenharia Financeira

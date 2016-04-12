@@ -23,9 +23,8 @@ contact_text: > #
 address: Rua Marins Alvarino, 150 - Itararé. Vitória - ES
 telephone: (27) 2904.7660
 
+# Locations
+base_imgpath_team: "/img/team/"
+
 # Build settings
 markdown: kramdown
-
-# Collections
-collections:
-  - solutions
