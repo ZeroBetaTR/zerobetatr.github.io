@@ -2,34 +2,36 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <h3 class="footer-header">Sobre Nós</h3>
+        A ZeroBeta busca aliar inovação, ciência, computação e investimentos.
+        Os robôs de decisão que desenvolvemos aliam o estado da arte em modelagem
+        computacional e matemática com técnicas de otimização de portfólio, hedging e
+        gestão de risco levando seus investimentos para o século XXI. O propósito de nossas
+        soluções é proporcionar renda com riscos aceitáveis sem a necessidade de constante
+        monitoramento do mercado por operadores.
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+        <h3 class="footer-header">Nossas Soluções</h3>
+        <ul>
+          {% for solution in site.solutions %}
+            <li>{{ solution.title }}</li>
+          {% endfor %}
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <h3 class="footer-header">Contato</h3>
+        <p>{{ site.contact_text }}</p>
+        <p>
+          <ul>
+            <li><i class='fa fa-home'></i>{{ site.address }}</li>
+            <li><i class='fa fa-phone'></i>{{ site.telephone }}</li>
+            <li><i class='fa fa-envelope'></i>{{ site.email }}</li>
+          </ul>
+        </p>
       </div>
     </div>
 

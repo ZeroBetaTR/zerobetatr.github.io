@@ -16,6 +16,16 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://zerobetatr.github.io" # the base hostname & protocol for your site
 github_username:  ZeroBetaTR
 logo: "/img/logo.png"
+contact_text: > #
+  Estamos sempre disponíveis para esclarecer qualquer dúvida sobre nosso negócio.
+  Além disso, estamos sempre dispostos a conversar sobre idéias, sugestões e oportunidades
+  de negócios.
+address: Rua Marins Alvarino, 150 - Itararé. Vitória - ES
+telephone: (27) 2904.7660
 
 # Build settings
 markdown: kramdown
+
+# Collections
+collections:
+  - solutions
