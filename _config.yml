@@ -22,9 +22,21 @@ contact_text: > #
   de negócios.
 address: Rua Marins Alvarino, 150 - Itararé. Vitória - ES
 telephone: (27) 2904.7660
+mission: > #
+  Desenvolver sistemas de negociação utilizando utilizando técnicas de
+  inteligência artificial entregando à investidores de Forex, ações,
+  mercadorias e futuros rentabilidade superior aos índices de mercado.
+vision: > #
+  Ser referência entre signal providers do ZuluTrade e vendors do
+  MetaTrader Market.
+values: > #
+  Pessoas excelentes trabalhando com paixão como uma equipe buscando
+  inovação e desempenho.
+
 
 # Locations
 base_imgpath_team: "/img/team/"
+base_imgpath_parnters: "/img/partners/"
 
 # Build settings
 markdown: kramdown

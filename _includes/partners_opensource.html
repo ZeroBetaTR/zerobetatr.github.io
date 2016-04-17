@@ -1,0 +1,30 @@
+<div class="partners-opensource-wrapper">
+  <div class="partners-wrapper demi-block">
+    <span class="fa fa-building"></span>
+    <h4>Parceiros</h4>
+    Em nossa trajetória encontramos importantes parceiros, conheça-os!
+    <div class="partner-list-wrapper">
+      {% for partner in site.data.partners %}
+        <a href="{{ partner.link }}" target="_blank">
+          <img class="partner-logo" src="{{ partner.logo | prepend: site.base_imgpath_parnters }}" />
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="opensource-wrapper demi-block">
+    <a href="http://github.com/{{ site.github_username }}" target="_blank">
+      <span class="fa fa-github"></span>
+      <h4>Open Source</h4>
+    </a>
+    <p>
+       Juntos somos mais! Estamos totalmente inseridos na comunidade MQL
+       e o desenvolvimento e disponibilização de bibliotecas matemáticas na
+       linguagem são fundamentais para nosso crescimento. Tendo em vista
+       que somos da área de desenvolvimento, acreditamos na comunidade
+       opensource, que é o background dos nosso fundadores. Portanto
+       disponibilizamos nosso framework básico comentado para caso você se
+       interesse pelo desenvolvimento
+    </p>
+
+  </div>
+</div>
