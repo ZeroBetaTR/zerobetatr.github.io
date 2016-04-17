@@ -23,6 +23,8 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    height: 100%;
+    background: url(/img/desk-a.png) no-repeat center fixed;
 }
 
 
@@ -66,10 +68,12 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    // margin-left: $spacing-unit;
 }
 
 li {
+  list-style: none;
+
     > ul,
     > ol {
          margin-bottom: 0;

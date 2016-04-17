@@ -8,6 +8,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    background: #fff;
+    margin-bottom: 400px;
 }
 
 .site-title {
@@ -92,7 +94,9 @@
     }
 }
 
-
+.block-wrapper {
+  background: #fff;
+}
 
 /**
  * Site footer
@@ -303,14 +307,16 @@
 }
 
 .icon-wrapper {
+  color: $grey-color;
   span {
+    margin-bottom: #{$spacing-unit};
     padding-top: calc((25% - (#{$spacing-unit} / 2))/4);
     padding-bottom: calc((25% - (#{$spacing-unit} / 2))/4);
     width: -webkit-calc(30% - (#{$spacing-unit} / 2));
     width:         calc(30% - (#{$spacing-unit} / 2));
     display: inline-block;
     font-size: 50px;
-    border: 4px solid black;
+    border: 4px solid $grey-color;
     border-radius: 100%;
   }
 }
@@ -327,6 +333,9 @@
   .partners-wrapper {
     background: #808080;
     color: #fff;
+    h4 {
+      color: #fff;
+    }
   }
   .demi-block {
     width: calc(50% - #{$spacing-unit});
@@ -338,6 +347,7 @@
   }
   .fa {
     font-size: 40px;
+    margin-bottom: calc(#{$spacing-unit}/2);
   }
 
   h4 {
@@ -345,7 +355,19 @@
   }
 
   .opensource-wrapper a {
-    color: #000;
+    color: $grey-color;
     text-decoration: none;
   }
+}
+
+h2 {
+  color: $grey-color;
+  text-align: center;
+  padding: #{$spacing-unit};
+  font-weight: bold;
+}
+
+h4 {
+  color: $grey-color;
+  text-align: center;
 }

@@ -7,22 +7,27 @@
 
     {% include header.html %}
 
-    <div class="page-content">
+    <!--<div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
+    </div>-->
+
+    <div class="block-wrapper">
+      {% include company_block.html %}
     </div>
-
-    {% include company_block.html %}
-
+    <div class="block-wrapper">
     {% include partners_opensource.html %}
-    
+    </div>
+    <div class="block-wrapper">
     {% include solutions.html %}
-
+    </div>
+    <div class="block-wrapper">
     {% include team.html %}
-
+    </div>
+    <div class="block-wrapper">
     {% include footer.html %}
-
+    </div>
   </body>
 
 </html>
