@@ -28,3 +28,6 @@ base_imgpath_team: "/img/team/"
 
 # Build settings
 markdown: kramdown
+
+collections:
+  - solutions
