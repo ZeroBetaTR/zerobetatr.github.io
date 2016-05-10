@@ -1,23 +1,23 @@
 - name: André Siviero
   picture: andre_siviero.jpg
   github: asiviero
-  short_description: Engenheiro de Computação
+  short_description: Computer Engineering
   linkedin: andre-luiz-tardin-siviero-55a04988
 
 - name: Rodrigo Cosme
   picture: rodrigo_cosme.jpg
   github: rodrigosilvacosme
-  short_description: Mestre em Engenharia Financeira
+  short_description: Master in Financial Engineering
   linkedin: rodrigosilvacosme
 
 - name: Agnello Hupp
   picture: agnello_hupp.jpg
   github: contihupp
-  short_description: Engenheiro de Produção
+  short_description: Production Engineer
   linkedin: agnello-hupp-5b633a21
 
 - name: Pedro Sá
   picture: pedro_sa.jpg
   github: pveronezisa
-  short_description: Mestre em Engenharia Financeira
+  short_description: Master in Financial Engineering
   linkedin: phves

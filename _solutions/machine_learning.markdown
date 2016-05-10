@@ -1,6 +1,6 @@
 ---
 title:  "Machine Learning"
-description: Usamos modernas técnicas de machine learning para construção de sistema de trading
+description: State-of-the-art machine learning techniques are employed to build our systems.
 icon: line-chart
 ---
 Wololo

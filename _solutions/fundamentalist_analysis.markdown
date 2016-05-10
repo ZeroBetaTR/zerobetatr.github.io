@@ -1,6 +1,6 @@
 ---
 title:  "Análise Fundamentalista"
-description: Nossos sistemas recebem inputs de todo o mercado e utiliza essa informação para enriquecer e aumentar a acurácia em suas previsões
+description: Data from several sources is inputed in our models to increase its prediction accuracy.
 icon: area-chart
 ---
 Wololo

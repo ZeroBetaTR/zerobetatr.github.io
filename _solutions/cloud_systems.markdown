@@ -1,6 +1,6 @@
 ---
-title:  "Sistemas na Nuvem"
-description: Possuímos soluções para armazenamento e desenvolvimento em nuvem, tornando fácil o acesso a investimentos como Forex.
+title:  "Cloud Systems"
+description: Our systems run on cloud servers, monitored 24/7.
 icon: cloud
 ---
 Wololo

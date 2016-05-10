@@ -1,6 +1,6 @@
 ---
 title:  "Gestão de Portfólio"
-description: Todos sistemas implementados possuem gestão de portfolio integrada, visando a diminuição dos riscos e aumentos dos ganhos
+description: All systems have portfolio management embedded into them, reducing risks and increasing returns.
 icon: exchange
 ---
 Wololo

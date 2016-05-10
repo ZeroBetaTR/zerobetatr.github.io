@@ -1,7 +1,7 @@
 <div class="team-wrapper" id="team">
   {% assign sorted_members = (site.data.team_members | sort: 'name') %}
   <div class="wrapper">
-    <h2>Nosso time</h2>
+    <h2>Team</h2>
     {% for member in sorted_members %}
       <div class="team-member-wrapper">
         <img class="team-member-photo" src="{{ member.picture | prepend: site.base_imgpath_team }}" />

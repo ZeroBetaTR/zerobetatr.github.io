@@ -1,6 +1,6 @@
 ---
 title:  "Sistemas para Trading"
-description: Nossos sitemas são desenvolvidos por todos os integrantes do time, de maneira profissional e altamente tecnológica
+description: Developed by all members of the team and heavily tested, our systems are battle-worn, extensible and robust.
 icon: code-fork
 ---
 Wololo

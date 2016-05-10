@@ -107,6 +107,10 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     text-align: justify;
+    color: $grey-color !important;
+    i.fa {
+      margin-right: $spacing-unit / 2;
+    }
 }
 
 .footer-heading {
@@ -351,6 +355,9 @@
     padding-right: calc(#{$spacing-unit}/2);
     padding-top: calc((10% - (#{$spacing-unit} / 2))/4);
     padding-bottom: calc((10% - (#{$spacing-unit} / 2))/4);
+    p {
+      margin-bottom: 60px;
+    }
   }
   .fa {
     font-size: 40px;

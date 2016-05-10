@@ -1,6 +1,6 @@
 ---
 title:  "Análise Técnica"
-description: Cada ticket possui 140 diferentes indicadores técnicos considerados como input para nossos sistemas
+description: Over 140 different technical indicators are used as inputs.
 icon: bar-chart
 ---
 Wololo

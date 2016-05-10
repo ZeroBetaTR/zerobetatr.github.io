@@ -18,22 +18,17 @@ github_username:  ZeroBetaTR
 facebook: zerobetatrading
 logo: "/img/logo.png"
 contact_text: > #
-  Estamos sempre disponíveis para esclarecer qualquer dúvida sobre nosso negócio.
-  Além disso, estamos sempre dispostos a conversar sobre idéias, sugestões e oportunidades
-  de negócios.
+  We are always always available to answer any questions about our company. Besides, we
+  are always open to ideas, suggestions and business opportunities.
 address: Rua Marins Alvarino, 150 - Itararé. Vitória - ES
 telephone: (27) 2904.7660
 mission: > #
-  Desenvolver sistemas de negociação utilizando utilizando técnicas de
-  inteligência artificial entregando à investidores de Forex, ações,
-  mercadorias e futuros rentabilidade superior aos índices de mercado.
+  To develop trading systems through artifical intelligence techniques, delivering returns above
+  the markets indexes for forex, stocks, commodities and funds investors.
 vision: > #
-  Ser referência entre signal providers do ZuluTrade e vendors do
-  MetaTrader Market.
+  To be the reference in algorithmic trading worldwide.
 values: > #
-  Pessoas excelentes trabalhando com paixão como uma equipe buscando
-  inovação e desempenho.
-
+  Amazing people working passionately as a team, seeking innovation and performance.
 
 # Locations
 base_imgpath_team: "/img/team/"
