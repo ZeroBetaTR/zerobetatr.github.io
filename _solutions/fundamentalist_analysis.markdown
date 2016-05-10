@@ -1,5 +1,5 @@
 ---
-title:  "Fundamentalist Analysis"
+title:  "Fundamental Analysis"
 description: Data from several sources is inputed in our models to increase its prediction accuracy.
 icon: area-chart
 ---
