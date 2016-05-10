@@ -208,3 +208,18 @@ pre {
         }
     }
 }
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+a {
+  text-decoration: none !important;
+  color: $black-color !important;
+  i.fa {
+    font-size: 2em;
+  }
+}
