@@ -7,6 +7,14 @@
         <img class="team-member-photo" src="{{ member.picture | prepend: site.base_imgpath_team }}" />
         <h4 class="team-member-name">{{ member.name }}</h4>
         <p>{{member.short_description}}</p>
+        <p>
+          <a href="https://github.com/{{ member.github }}" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://linkedin.com/in/{{ member.linkedin }}" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </p>
       </div>
     {% endfor %}
   </div>
