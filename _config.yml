@@ -29,6 +29,8 @@ vision: > #
   To be the reference in algorithmic trading worldwide.
 values: > #
   Amazing people working passionately as a team, seeking innovation and performance.
+paginate: 10
+paginate_path: "/blog/page:num/"
 
 # Locations
 base_imgpath_team: "/img/team/"
